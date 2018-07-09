@@ -1,0 +1,9 @@
+[package]
+name = "hs-scraper"
+version = "0.1.0"
+authors = ["Jacky Zhen <jacky.s.zhen@gmail.com>"]
+
+[dependencies]
+reqwest = "0.8.6"
+scraper = "0.7.0"
+select = "0.4.2"
