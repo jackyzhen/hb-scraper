@@ -1,19 +1,20 @@
 # hb-scraper
 Scrapes titles from horriblesubs and lets you choose a title to scrape mag links for.
 
-## usage
-
-```
-cargo run
-```
+[![asciicast](https://asciinema.org/a/wWRaQJeoixvJn8WWeqPWiASVQ.png)](https://asciinema.org/a/wWRaQJeoixvJn8WWeqPWiASVQ)
 
 Loads titles in memory, then prompts for search.
 
 Currently outputs mag links to STDOUT.
 
-## todo
+Get it from [cargo](https://crates.io/crates/hs-scraper).
 
-Output to file or generate linked mag file.
+## Todo
 
-## license
+- Output to file or generate linked mag file.
+- Specify quality.
+- Better search and user flow.
+
+## License
+
 MIT

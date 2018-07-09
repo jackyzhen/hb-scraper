@@ -2,8 +2,17 @@
 name = "hs-scraper"
 version = "0.1.0"
 authors = ["Jacky Zhen <jacky.s.zhen@gmail.com>"]
+description = "Mag link scraper for horriblesubs.info"
+license = "MIT"
+homepage = "https://github.com/jackyzhen/hb-scraper"
+repository = "https://github.com/jackyzhen/hb-scraper"
+readme = "README.md"
+
+[[bin]]
+bench = false
+path = "src/main.rs"
+name = "hsc"
 
 [dependencies]
 reqwest = "0.8.6"
-scraper = "0.7.0"
 select = "0.4.2"
