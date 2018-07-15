@@ -1,6 +1,6 @@
 [package]
 name = "hs-scraper"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jacky Zhen <jacky.s.zhen@gmail.com>"]
 description = "Mag link scraper for horriblesubs.info"
 license = "MIT"

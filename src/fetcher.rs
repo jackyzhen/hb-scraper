@@ -8,11 +8,11 @@ const API_TEMPLATE: &'static str =
 
 pub struct Fetcher<'a> {
     url: &'a str,
-    quality: Quality,
+    quality: &'a Quality,
 }
 
 impl<'a> Fetcher<'a> {
-    pub fn new(url: &'a str, quality: Quality) -> Fetcher<'a> {
+    pub fn new(url: &'a str, quality: &'a Quality) -> Fetcher<'a> {
         Fetcher { url, quality }
     }
 
